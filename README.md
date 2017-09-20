@@ -1,15 +1,16 @@
-This project is to destructure the underscore.js methods and fully understand the functionality of each
+This project is to destructure the underscore.js methods and fully understand the functionality of each method
 
-Feel free to fork to use if it assists you in anyway
+Feel free to fork the repository to use if it assists you in anyway
 
-To use and test please follow the following instructions
+To use and test please follow the following instructions - 
+You will require Node and npm (or Yarn)
+You will all need to have Mocha installed (either globally or local to the project to successfully run tests)
 
-fork to you own gitHub
-Git clone from command line
+Fork to you own gitHub
+Git clone from within your command line $ git clone https://github.com/Rule1001/Lowbar_Destructure.git
 npm install - to install dependencies from package.json
 npm test - to see the results of each of the tests.
 
-you will need to have Mocha installed (either globally or local to the project to successfully run tests)
 
 
 1. identity

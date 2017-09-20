@@ -9,7 +9,7 @@ describe('#extends', () => {
       expect(_.extends).to.be.a('function');
     });
     it('returns the value when passed an argument', () => {
-      const result = _.extends({ type: 'detached' })
+      const result = _.extends({ type: 'detached' });
       expect(result).to.eql({ type: 'detached' });
     });
     it('shallow copies all the properties in the source object(s) over to the destination object', () => {
@@ -18,7 +18,7 @@ describe('#extends', () => {
       expect(result).to.eql(expected);
     });
     it('updates the destination object if the source has the same key', () => {
-      const result = _.extends({ type: 'detached', description: 'forSale' }, {description: 'not forSale'})
+      const result = _.extends({ type: 'detached', description: 'forSale' }, {description: 'not forSale'});
       const expected = { type: 'detached', description: 'not forSale'};
       expect(result).to.eql(expected);
     });
