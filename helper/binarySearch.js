@@ -1,4 +1,5 @@
-const identity = require('../lib/lowbar');
+
+const identity = value => value;
 
 function binarySearch (list, item, insertAtIndex, iteratee) {    
     if (arguments.length < 2 || !Array.isArray(list) && typeof list !== 'string') return -1;
