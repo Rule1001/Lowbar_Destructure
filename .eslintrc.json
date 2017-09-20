@@ -25,7 +25,6 @@
               "space-infix-ops": 1,
                 "spaced-comment": 1,
                   "semi": 1,
-                    "quotes": ["error", "single"],
                       "no-multiple-empty-lines": 1
     }
   }
