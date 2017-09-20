@@ -41,8 +41,5 @@ npm test - to see the results of each of the tests.
 7. zip
 8. sortedIndex
 9. flatten
-10. intersection
-11. difference
-12. throttle
 
 Rule1001
