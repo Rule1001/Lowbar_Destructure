@@ -1,0 +1,27 @@
+{
+    "name": "lowbar_destructure",
+    "version": "1.0.0",
+    "description": "Lowbar destructure underscore methods",
+    "main": "index.js",
+    "scripts": {
+      "test": "mocha ./spec/",
+      "test:watch": "npm test -- --watch",
+      "lint": "eslint ./",
+      "posttest": "npm run lint",
+      "precommit": "npm test"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "eslint-plugin-import": "^2.7.0",
+      "underscore": "^1.8.3"
+    },
+    "devDependencies": {
+      "chai": "^3.5.0",
+      "eslint": "^3.19.0",
+      "eslint-config-airbnb-base": "^11.3.1",
+      "husky": "^0.13.1",
+      "mocha": "^3.5.3",
+      "sinon": "^3.0.0"
+    }
+  }
